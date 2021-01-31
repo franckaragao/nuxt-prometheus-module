@@ -1,0 +1,51 @@
+{
+  "name": "nuxt-phometheus-module",
+  "version": "0.1.2",
+  "description": "A nuxt module to export data to prometheus",
+  "license": "MIT",
+  "main": "lib/module.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "nuxt example --port 3003",
+    "generate": "nuxt generate example",
+    "lint": "eslint --ext .js,.vue example lib test",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && jest"
+  },
+  "dependencies": {
+    "prom-client": "^11.5.3"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/module-test-utils": "latest",
+    "@types/jest": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/franckaragao/nuxt-prometheus-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/franckaragao/nuxt-prometheus-module/issues"
+  },
+  "homepage": "https://github.com/franckaragao/nuxt-prometheus-module/blob/main/README.md",
+  "keywords": [
+    "nuxt",
+    "prometheus",
+    "metrics",
+    "prom-client"
+  ]
+}
