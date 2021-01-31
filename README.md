@@ -1,4 +1,4 @@
-# nuxt-phometheus-module
+# nuxt-prometheus-module
 
 > Use this module to expose metrics to another port (you need to use nuxt start or nuxt dev).
 
@@ -7,15 +7,15 @@
 
 ## Setup
 
-1. Add the `nuxt-phometheus-module` dependency with `yarn` or `npm` to your project
-2. Add `nuxt-phometheus-module` to the `modules` section of `nuxt.config.js`
+1. Add the `nuxt-prometheus-module` dependency with `yarn` or `npm` to your project
+2. Add `nuxt-prometheus-module` to the `modules` section of `nuxt.config.js`
 3. Configure it:
 
 ```js
 {
   modules: [
     // Simple usage
-    'nuxt-phometheus-module',
+    'nuxt-prometheus-module',
 
     // With options
     ['nuxt-maps-module', { /* module options */ }]

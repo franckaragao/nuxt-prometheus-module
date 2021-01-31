@@ -4,7 +4,7 @@ module.exports = {
   rootDir: resolve(__dirname, '..'),
   buildDir: resolve(__dirname, '.nuxt'),
   head: {
-    title: 'nuxt-phometheus-module'
+    title: 'nuxt-prometheus-module'
   },
   srcDir: __dirname,
   render: {
