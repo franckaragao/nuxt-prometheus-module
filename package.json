@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-phometheus-module",
-  "version": "0.1.3",
+  "name": "nuxt-prometheus-module",
+  "version": "0.1.4",
   "description": "A nuxt module to export data to prometheus",
   "license": "MIT",
   "main": "lib/module.js",
